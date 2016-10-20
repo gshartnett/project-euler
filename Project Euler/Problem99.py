@@ -1,0 +1,27 @@
+#!/usr/bin/python -tt
+import sys
+import time
+from collections import Counter
+start_time = time.clock()
+
+# load the base/exp list
+baselist = []
+explist = []
+f = open('supplementary_files/p099_base_exp.txt', 'r')
+for line in f:
+  baselist.append(int(line[0:line.index(',')]))
+  explist.append(int(line[line.index(',')+1:len(line)]))
+
+i = 1
+for j in range(0,len(baselist)-1):
+  if baselist[j]**explist[j] > baselist[j+1]**explist[j+1]:
+    i = j
+    print i
+
+print i
+print 'clock time = ', time.clock() - start_time, "seconds"
+
+
+
+
+

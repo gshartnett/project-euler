@@ -1,0 +1,70 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1597,         61]
+NotebookOptionsPosition[      1263,         44]
+NotebookOutlinePosition[      1629,         60]
+CellTagsIndexPosition[      1586,         57]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"SeriesCoefficient", "[", 
+   RowBox[{
+    RowBox[{"Product", "[", 
+     RowBox[{
+      FractionBox["1", 
+       RowBox[{"1", "-", 
+        SuperscriptBox["x", "i"]}]], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "1", ",", "100"}], "}"}]}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"x", ",", "0", ",", "100"}], "}"}]}], "]"}], "-", "1"}]], "Input",\
+
+ CellChangeTimes->{{3.670361037199051*^9, 3.670361211815342*^9}, {
+  3.670361393975864*^9, 3.6703614448950567`*^9}}],
+
+Cell[BoxData["190569291"], "Output",
+ CellChangeTimes->{{3.670361179405663*^9, 3.670361213744219*^9}, {
+  3.670361397674983*^9, 3.6703614452942457`*^9}}]
+}, Open  ]]
+},
+WindowSize->{808, 911},
+WindowMargins->{{473, Automatic}, {9, Automatic}},
+Magnification:>1.5 Inherited,
+FrontEndVersion->"10.3 for Linux x86 (64-bit) (October 9, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 511, 15, 131, "Input"],
+Cell[1094, 39, 153, 2, 45, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

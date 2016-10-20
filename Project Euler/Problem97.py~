@@ -1,0 +1,19 @@
+#!/usr/bin/python -tt
+import sys
+import time
+import pe_lib
+start_time = time.clock()
+
+m = 28433
+p = 7830457
+n = m*2**p+1
+n = 2**p -1
+string = str(n)
+
+print 'answer = ', string[-10]
+print 'clock time = ', time.clock() - start_time, "seconds"
+
+
+
+
+
